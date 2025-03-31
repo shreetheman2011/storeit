@@ -1,8 +1,7 @@
 {
   "functions": {
-    "api/**/*.ts": {
-      "runtime": "edge",
-      "memory": 512
+    "api/v1/[[...route]].ts": {
+      "runtime": "edge"
     }
   }
 }
