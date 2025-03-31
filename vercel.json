@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/v1/webhook/paddle/subscription": {
+      "runtime": "nodejs",
+      "memory": 512
+    }
+  }
+}
