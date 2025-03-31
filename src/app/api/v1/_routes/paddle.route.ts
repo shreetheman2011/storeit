@@ -52,6 +52,7 @@ paddleRoute.post("paddle/subscription", async (c) => {
               status: "activated",
               "gateway.paddle.subscription.id": eventData.data.id,
               "gateway.paddle.subscription.entityType": eventData.eventType,
+              
               $inc: {
                 selectedStorage: extraStorageInByte,
               },
@@ -72,6 +73,7 @@ paddleRoute.post("paddle/subscription", async (c) => {
               status: "canceled",
               subscriptionType: "free",
               "gateway.paddle.subscription.entityType": eventData.eventType,
+              selectedStorage: 7516192768
             }
           );
 
