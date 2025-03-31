@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/v1/webhook/paddle/subscription": {
-      "runtime": "nodejs",
+    "api/**/*.ts": {
+      "runtime": "edge",
       "memory": 512
     }
   }
