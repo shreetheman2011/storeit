@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/v1/webhook/paddle/subscription": {
-      "runtime": "edge@1.0.0"
-    }
-  }
-}
