@@ -35,7 +35,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 import usePaddle from "@/hooks/use-paddle";
-import { cancelSubscription, createPaddlePrice } from "@/action/paddle.action";
+import { createPaddlePrice } from "@/action/paddle.action";
 import { NEXT_PUBLIC_APP_URL } from "@/lib/env";
 
 interface Props {
