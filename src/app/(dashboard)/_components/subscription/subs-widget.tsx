@@ -276,7 +276,7 @@ const AddStorageAlert = ({
       <DialogContent>
         <DialogHeader>
           <DialogTitle>
-            Select the Total Storage You Want(Not Extra, But Total){" "}
+            Select the Extra Store You Want
           </DialogTitle>
         </DialogHeader>
         <div>
