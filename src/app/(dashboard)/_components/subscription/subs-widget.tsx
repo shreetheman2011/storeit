@@ -46,16 +46,9 @@ interface Props {
 const SubscriptionCancellationWidget = ({ isLoading, subs }: Props) => {
   async function handleCancelSubscription() {
     try {
-      const res = await cancelSubscription(subs);
-
-      const { description, status, message } = res;
-
-      if (status !== 200) {
-        throw description;
-      }
-
-      toast(message, {
-        description,
+window.open("https://docs.google.com/document/d/1SQDX982VCZAKPBjBdAEzzi_n4InPgPFWBaFEfirmZV4/edit?usp=sharing", "_blank")
+      toast("Successful redirection to cancellation page.", {
+        description: "Follow directions to cancel.",
       });
     } catch (error) {
       console.log("Error in subscription cancellation widget: ", error);
