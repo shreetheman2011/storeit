@@ -61,9 +61,7 @@ const UploadButton = () => {
       });
     },
     onError: (c) => {
-      toast(c.name, {
-        description: c?.message,
-      });
+      console.log(c)
     },
     onSettled: () => {
       setIsUploading(false);
